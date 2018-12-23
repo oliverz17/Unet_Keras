@@ -1,5 +1,5 @@
-#Oliver Zollikofer
-#Spring 2018
+#Oliver Z.
+#Zurich, Spring 2018
 
 from __future__ import print_function
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
