@@ -17,9 +17,6 @@ matplotlib.use('Agg')
 K.clear_session()
 K.set_image_data_format('channels_last')
 
-imgs = np.load('imgs_final1.npy')
-imgs_mask = np.load('imgs_masks_final1.npy')
-
 #set parameters
 img_rows = 480
 img_cols = 480
