@@ -160,9 +160,6 @@ class Unet():
         self.model.save('model.h5')
         self.model.save_weights('weights.h5')
 
-        #predictions = model.predict(imgs_val)
-        #predictions = predictions * 255
-        #np.save(r'5predictions.npy', predictions)
 
         with open('History_train.pickle', 'wb') as history_file:
             pickle.dump(train_history.history, history_file)
