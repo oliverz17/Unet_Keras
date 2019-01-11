@@ -164,8 +164,10 @@ class Unet():
         with open('History_train.pickle', 'wb') as history_file:
             pickle.dump(train_history.history, history_file)
 
+            
+if __name__ == '__main__':
 
-#Build Unet with given parameters:
-init_model = Unet(img_rows, img_cols, img_channels, epochs, batch_size)
-#Train model
-init_model.train()
+    #Build Unet with given parameters:
+    init_model = Unet(img_rows, img_cols, img_channels, epochs, batch_size)
+    #Train model
+    init_model.train()
